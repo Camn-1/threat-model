@@ -1,0 +1,27 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Camn",
+    "description": "What are we working on:\n\nEvent Application:\nThis application would operate on the Owl network (Android and iOS) . It would be an application featuring the many different activities taking place, an interactive section for attendees to share their experiences, a section to buy tickets, and a section for vendors to display their products or services at the event.\nShows live schedule of events (and if the events change schedule)\nA community aspect (like a little comment section where attendees can share posts and pics of their experience at Hogwarts.\nThis would require getting some customer information and disclosing that this information is being collected (name, address, and phone number)\nThere will also be fun little activities for attendees to participate in for prizes, like a scavenger hunt, surprise quizzes and guessing the winners of each match.\nA general roster of the Quidditch athletes \nThis would show the teams playing and their placements\nAlong with who is playing on each team and their stats\nTickets availability, purchasing, VIP status, and checking-In\nThis would require attendees to make an account that communicates to our 3rd party payment system for these tickets.\nAttendees would be allowed to purchase various tiers of tickets, that allow for more access to particular parts of the events.\nAlong with more access, certain ticket purchases or VIP status would enable attendees to get exclusive app content and other virtual gifts.\nVendors and their advertisements\nThe same account for tickets can be used to advise attendees based on their experiences and what they seem to support.\nVendors that partake in the event will have to abide by our policy of disclosing the use of customer data, if it is collected and used, and that they must delete customer data if the customer requests deletion. \nVendors that are at the event must have some relation to the activities taking place, to ensure that trusted vendors are the ones that are servicing attendees with relevant goods and services.\n\nIdentify what can go wrong:\n\t\n-Unauthorized access to attendees mobile app is a potential issue\n\t- This could be due to brute force attempts on attendees credentials\n\t- Spoofing of public Hi-Fi (Hogwarts Wifi) and monitoring attendees usage on this \nfake network\n- Exploiting vulnerabilities in the event database or potential zero day or unpatched software and devices at the events.\n-Unauthorized usage of customer data via 3rd party can prove an issue as well\n\nSuch as not encrypting customer data and allowing bad actors to take advantage of this.\nNot making the database secure in which the customers data travels, meaning that bad actors could try different exploits on the database to get customer data or modify the behavior of the database.\n\nIdentify countermeasures or manage risk:\n\nCreating a secure public Hi-Fi for the event\nThere will be many networks to this\nThe main one being a WPA2 network for employees only, to ensure that no unauthorized access is done at this network.\nA secondary network WPA2 network for vendors, to ensure vendors have their own network that is separate from the attendees and employees.\nAnd a third for attendees in which they go to a booth at the entrance and scan a dizzy spell (QR code) and enter an access code told to them from the Hat of Forecast (booth attende) to ensure they have a secure established connection at the event.\nEnsure that all devices are up to date and patched, that are in operation at the event\nRequire that the mobile app can only run on versions of Owl network that do not have are patched from devastating exploits\nMake sure the mobile app is up to date for the event\nEnsure that calls to APIs and links to other 3rd party services within the app are secure and non exploitable before, during and after the event\nVerify with all 3rd party and vendors at the event, that they are in compliance with our security standard\nBe sure to audit them to ensure that they are really up to the security standard for the event.\nTest the databases that are shared with these vendors and 3rd party partners, to ensure that no tampering or exploits are present.\n\nAssess your work:\n\nRunning a thorough audit on the security of the mobile app and all the measures done for the event.\nThrough our security team, as well as from the four houses of the Quidditch event (Go Gryffindor!) \nEnsuring that these security implementations are done before developing the mobile application further, and having it go live.\nEnsure all attendees have a good time!\n\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": "A graphic view of the high level description"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
