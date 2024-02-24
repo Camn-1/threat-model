@@ -1,0 +1,27 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "Exercise 2",
+    "owner": "Cameron and Amunique",
+    "description": "Your Task:\n\nConsider how web applications like this might be designed and built. What are the various parts? How do they come together?\n\nThe various parts of the application are the web application, the databases that the information is provided from and where the user’s health information is stored. As well as the cloud environment utilized for the data to run continuously and securely.\n\nAssuming modern practices like Agile and DevOps are in place, where would security fit in?Discuss the various places (stages) where you would inject security and why?\nAgile and DevOps are in place throughout the process of development, each step of designing and developing has security in mind. In order to mitigate potential threats and secure any means of potential vulnerabilities.\n\nWhat security practices would you employ and how would you implement them?\nConstruct a simple diagram for what you believe it should look like.\n\nThere are many security practices that we can employ, such as HTTPS, SSH, VPC, etc to ensure that the data is secure. There will also be data protection for the user to ensure that they know what is happening with their data and if they want to delete their data they can do so. There will also be the requirement of 2FA/MFA for the users to ensure their accounts are more secure. There will also be threat modeling used for this.\n\nDiscuss the roles and practitioners you believe are needed to successfully address Hagrid’s concerns.\nRoles and practitioners that will be needed to successfully address Hagrid’s concerns, would be a compliance officer to establish the necessary frameworks for the web application, in this case HIPAA and GDPR. Then have an auditor/auditors that check that our web application is in compliance with HIPAA and GDPR. There will also be networking and cloud specialists to ensure these protocols are utilized securely in our web app. And lastly, pen testers to make sure that our web application is truly secure for users. As well as a scope analyzer to ensure we can operate the web application for many users.\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": "Security Practices"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
